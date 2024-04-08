@@ -1,0 +1,23 @@
+<div *ngIf="!taskId">
+    <p>there is no task </p>
+</div>
+<div *ngIf="taskId">
+    <h2>Detalis of {{task.title}}</h2>
+    <input placeholder="task name" type="text" [(ngModel)]="task.title" class="input1">
+
+
+</div>
+<div *ngIf="taskId">
+    <textarea [(ngModel)]="task.description" placeholder="write the description" class="textarea1"></textarea>
+
+</div>
+<div *ngIf="taskId">
+    <input placeholder="task date" type="text" [(ngModel)]="task.date" class="input2">
+
+</div>
+<div>
+    <button routerLink="/" class="cancel" > Cancel</button> 
+    <button (click)="deleteTask()" class="delete" > Delete</button>
+    <button (click)="updateTask()" class="update"> Update</button>
+</div>
+

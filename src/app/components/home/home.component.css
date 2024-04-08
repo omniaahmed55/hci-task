@@ -1,0 +1,48 @@
+.delet-button{
+ background-color:#04AA6D;
+ border-radius: 10px;
+ margin-top: 8px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ box-shadow: 0 8px 16px 0 rgba(152, 137, 137, 0.734), 0 6px 20px 0 rgba(116, 107, 107, 0.647);
+
+ 
+}
+.add-task-button{
+    margin-bottom: 20px;
+    
+}
+.add-task-button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    
+}
+.list-group{
+  background: #a6aea788;
+  padding: 20px;
+  border-radius: 10px;
+  size: 100px;
+  margin-top: 10px;
+}
+.link-title{
+  background-color: #f1eaea;
+  color: rgb(4, 108, 37);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}

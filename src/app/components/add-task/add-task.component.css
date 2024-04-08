@@ -1,0 +1,59 @@
+.head{
+    align-items: center;
+}
+.button-save{
+ background-color:rgb(7, 134, 41);
+ margin-bottom: 10px;
+ border-radius: 10px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ 
+
+}
+.button-cancel{
+ background-color:red;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin-left: 10px;
+
+
+}
+.add-task-title{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(76, 246, 34);
+    border-radius: 4px;
+
+}
+.descreption{
+    
+        width: 600px;
+        height: 120px;
+        border: 3px solid #cccccc;
+        padding: 5px;
+        font-family: Tahoma, sans-serif;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        border: 2px solid rgb(76, 246, 34);
+    }
+    
+
+
+.due-date{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(76, 246, 34);
+    border-radius: 4px;
+
+
+}

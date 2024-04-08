@@ -1,0 +1,67 @@
+.cancel{
+background-color:rgb(4, 108, 37);
+ margin-bottom: 10px;
+ margin-top: 8px;
+ border-radius: 10px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ box-shadow: 0 8px 16px 0 rgba(152, 137, 137, 0.734), 0 6px 20px 0 rgba(116, 107, 107, 0.647);
+
+ 
+}
+.delete{
+    background-color:rgb(4, 108, 37);
+ margin-bottom: 10px;
+ margin-top: 8px;
+ margin-left: 50px;
+ border-radius: 10px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ box-shadow: 0 8px 16px 0 rgba(152, 137, 137, 0.734), 0 6px 20px 0 rgba(116, 107, 107, 0.647);
+}
+.update{
+    background-color:rgb(4, 108, 37);
+    
+ margin-bottom: 10px;
+ margin-left: 50px;
+ border-radius: 10px;
+ color: white;
+ padding: 8px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ box-shadow: 0 8px 16px 0 rgba(152, 137, 137, 0.734), 0 6px 20px 0 rgba(116, 107, 107, 0.647);
+}
+.input1{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(76, 246, 34);
+    border-radius: 4px;
+
+}
+.textarea1{
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(76, 246, 34);
+
+}
+.input2{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(76, 246, 34);
+    border-radius: 4px;
+
+}

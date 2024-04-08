@@ -1,0 +1,18 @@
+<div>
+    <h2 class="head"> ADD NEW TASK </h2>
+<input #tasktitle type="text" placeholder="task name" class="add-task-title">
+
+</div>
+
+<div>
+    <textarea #taskdescreption placeholder="task descreption " class="descreption"></textarea>
+</div>
+
+<div>
+    <input #taskdate type="text" placeholder="due-date" class="due-date" >
+</div>
+<div>
+    <button class="button-save" (click)="saveTask(tasktitle,taskdescreption,taskdate)" >Save</button>
+    <button class="button-cancel" routerLink="/">cancel</button>
+
+</div>

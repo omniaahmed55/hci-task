@@ -1,0 +1,33 @@
+
+<div class="containar">
+    <div>
+        <button routerLink="/add-task" class="add-task-button btn-secondary">
+            Add Task
+        </button>
+    </div>
+<div *ngIf="tasksservice.tasks.length==0">
+    <p class="alert alert-danger">
+        no tasks today.
+    </p>
+
+</div>
+<div *ngIf="tasksservice.tasks.length!=0" class="list">
+    <ul class="list-group">
+        
+        <li class="list-group-item" *ngFor="let task of tasksservice.tasks;index as i">
+            <a [routerLink]="['/task',i]" class="link-title">
+               show task
+            </a>
+                <br>
+                <strong> Name : </strong> : {{task.title}}
+                <br>
+                <strong> Description : </strong> : {{task.description}}
+                <br>
+                <strong> DueDate : </strong> : {{task.date}}
+                <br>
+                <button  class=" delet-button btn btn-danger" (click)="deleteTask(i)">Delet</button>
+                <input  type="checkbox" [(ngModel)]="task.status"  name="Status">
+        </li>
+    </ul>
+
+</div>
